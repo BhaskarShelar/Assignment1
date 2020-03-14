@@ -1,0 +1,26 @@
+﻿<script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<div class="row">
+    <table>
+        <tr class="row">
+            <td class="col-md-6">Country</td> &nbsp; &nbsp;
+            <td class="col-md-6">time</td>
+        </tr>
+        <tr>
+            @Html.Action("IndiaTime", "Student")
+           
+        </tr>
+        <tr>
+        <tr>
+            @Html.Action("UKTime", "Student")
+           
+        </tr>
+        </tr>
+    </table>
+</div>
